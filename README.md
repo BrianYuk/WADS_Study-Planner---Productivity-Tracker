@@ -9,16 +9,16 @@
 
 ## 1. Project Information
 
-### 📌 Project Title
+### Project Title
 **Smart Study Planner & Productivity Tracker**
 
-### 📌 Project Domain
+### Project Domain
 Study Planner & Productivity Tracker
 
-### 📌 Class
+### Class
 L4CC
 
-### 👥 Group Members (Max 3 – Same Class Only)
+### Group Members (Max 3 – Same Class Only)
 
 | Name | Student ID | Role | GitHub Username |
 |------|-----------|------|----------------|
@@ -33,12 +33,12 @@ L4CC
 This repository is shared with:
 
 - **Instructor:** Ida Bagus Kerthyayana Manuaba  
-  - 📧 Email: imanuba@binus.edu  
-  - 🐙 GitHub: bagscode  
+  - Email: imanuba@binus.edu  
+  - GitHub: bagscode  
 
 - **Instructor Assistant:** Juwono  
-  - 📧 Email: juwono@binus.edu  
-  - 🐙 GitHub: Juwono136  
+  - Email: juwono@binus.edu  
+  - GitHub: Juwono136  
 
 ---
 
