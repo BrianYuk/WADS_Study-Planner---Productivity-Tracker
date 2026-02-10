@@ -18,7 +18,7 @@ Study Planner & Productivity Tracker
 ### Class
 L4CC
 
-### Group Members (Max 3 – Same Class Only)
+### Group Members 
 
 | Name | Student ID | Role | GitHub Username |
 |------|-----------|------|----------------|
