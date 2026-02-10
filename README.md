@@ -76,7 +76,7 @@ This project proposes a **web-based study planner and productivity tracker** tha
 
 ---
 
-## 4. Technology Stack (Mandatory)
+## 4. Technology Stack 
 
 | Layer | Technology |
 |------|-----------|
