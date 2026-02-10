@@ -91,6 +91,7 @@ This project proposes a **web-based study planner and productivity tracker** tha
 ---
 
 ## 5. System Architecture
+Monolithic Architecture
 
 ### 5.1 Architecture Diagram
 
