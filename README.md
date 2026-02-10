@@ -91,7 +91,20 @@ This project proposes a **web-based study planner and productivity tracker** tha
 ---
 
 ## 5. System Architecture
-Monolithic Architecture
+Monolithic Architecture is used for the study planner & productivity tracker's architecture because it is designned to be a simple application focussed on the following:
+-User authentication
+-Study planning
+-Assignment tracking
+-Notifications
+-Basic AI recommendations
+
+### Conclusion on Monolithic Architecture
+Chosen because it is:
+• Simple and efficient
+• Easy to develop and deploy
+• Well-suited for tightly integrated features
+• Cost-effective for small-scale applications
 
 ### 5.1 Architecture Diagram
+
 
