@@ -106,5 +106,5 @@ Chosen because it is:
 • Cost-effective for small-scale applications
 
 ### 5.1 Architecture Diagram
-![Architecture Diagram](img/Arc diagram.png)
+![Architecture Diagram](img/Arc%20diagram.png)
 
