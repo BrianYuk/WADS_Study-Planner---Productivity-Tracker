@@ -108,3 +108,19 @@ Chosen because it is:
 ### 5.1 Architecture Diagram
 ![Architecture Diagram](img/Arc%20diagram.png)
 
+---
+
+## 6. API Design
+### 6.1 API Endpoints
+
+| Method | Endpoint | Description | Auth Required |
+|--------|----------|-------------|---------------|
+| GET |  |  | Y/N |
+| POST |  |  | Y/N |
+| PUT |  |  | Y/N |
+| DELETE |  |  | Y/N |
+
+
+### 6.2 API Documentation
+
+
