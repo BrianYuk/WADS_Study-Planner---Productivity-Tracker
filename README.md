@@ -57,7 +57,7 @@ Many students face difficulties in managing their study schedules effectively du
 
 ### 3.2 Solution Overview
 
-This project proposes a **web-based study planner and productivity tracker** that assists users in organizing tasks, scheduling study sessions, and receiving AI-generated study recommendations.
+This project proposes a **web-based study planner and productivity tracker** that assists users in organizing tasks, scheduling study sessions, and receiving AI-generated study plans.
 
 **Main Features:**
 - Task and study session management  
@@ -79,32 +79,47 @@ This project proposes a **web-based study planner and productivity tracker** tha
 ## 4. Technology Stack 
 
 | Layer | Technology |
-|------|-----------|
+|-------|------------|
 | Frontend | Next.js |
-| Backend | Node.js (Next.js API Routes) |
-| API | REST API |
-| Database | PostgreSQL |
+| API Gateway | Node.js (Express) |
+| Auth Service | Node.js (Express) |
+| Task Service | Node.js (Express) |
+| Planner Service | Node.js (Express) |
+| Communication | REST API |
+| Database (Auth) | PostgreSQL |
+| Database (Task) | PostgreSQL |
+| Database (Planner) | PostgreSQL |
 | Containerization | Docker |
-| Deployment | Vercel / Railway |
+| Deployment (Frontend) | Vercel |
+| Deployment (Services + DB) | Railway |
 | Version Control | GitHub |
 
 ---
 
 ## 5. System Architecture
-Monolithic Architecture is used for the study planner & productivity tracker's architecture because it is designned to be a simple application focussed on the following:
--User authentication
--Study planning
--Assignment tracking
--Notifications
--Basic AI recommendations
 
-### Conclusion on Monolithic Architecture
+Microservices Architecture is used for the study planner & productivity tracker’s architecture because the application is designed to support scalable, modular, and independently deployable services focused on the following:
+
+- User Authentication Service  
+- Study Planning Service  
+- Assignment Tracking Service  
+- Notification Service  
+- AI Recommendation Service  
+
+Each feature is implemented as an independent microservice with its own backend logic and dedicated PostgreSQL database. These services communicate through REST APIs, ensuring separation of concerns and better maintainability.
+
+---
+
+### Conclusion on Microservices Architecture
+
 Chosen because it is:
-• Simple and efficient
-• Easy to develop and deploy
-• Well-suited for tightly integrated features
-• Cost-effective for small-scale applications
+
+- Scalable — each service can scale independently based on demand  
+- Modular — services can be developed, deployed, and maintained separately  
+- Fault-Isolated — failure in one service does not affect the entire system  
+- Flexible — allows future integration of new technologies or services  
+- Suitable for long-term growth and feature expansion  
+
 
 ### 5.1 Architecture Diagram
-![Architecture Diagram](img/Arc%20diagram.png)
 
